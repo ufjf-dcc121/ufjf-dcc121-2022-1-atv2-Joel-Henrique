@@ -1,50 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DCC Tabelas</title>
-  </head>
-  <body>
-    <h1>DCC Tabelas</h1>
-    <table>
-      <thead>
-        <tr>
-          <th>Nome</th>
-          <th>Altura</th>
-          <th>Peso</th>
-          <th>Idade</th>
-        </tr>
-      </thead>
 
-      <tbody>
-        <tr>
-          <td>Fulano</td>
-          <td>1,56</td>
-          <td>56</td>
-          <td>14</td>
-        </tr>
-        <tr>
-          <td>Beltrano</td>
-          <td>1,90</td>
-          <td>90</td>
-          <td>34</td>
-        </tr>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DCC Tabelas</title>
+</head>
 
-        <tr>
-          <td>ciclana</td>
-          <td>1,64</td>
-          <td>61</td>
-          <td>24</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <td><strong>média</strong></td>
+<body>
+  <h1>DCC Tabelas</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Altura</th>
+        <th>Peso</th>
+        <th>Idade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Fulano</td>
+        <td>1,56</td>
+        <td>56</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>Beltrano</td>
+        <td>1,90</td>
+        <td>90</td>
+        <td>34</td>
+      </tr>
+      <tr>
+        <td>ciclana</td>
         <td>1,64</td>
         <td>61</td>
         <td>24</td>
-      </tfoot>
-    </table>
-  </body>
+      </tr>
+    </tbody>
+    <tfoot>
+      <th>
+        <scrow="row">média
+      </th>
+      <td>1,69</td>
+      <td>70</td>
+      <td>23</td>
+    </tfoot>
+  </table>
+
+  <h1>Outro exemplo</h1>
+  <table border="1">
+    <tr>
+      <td colspan ="2">1</td>
+      <td>3</td>
+      <td rowspan = "3">4</td>
+      <td >5</td>
+    </tr>
+    <tr> 
+      <td colspan ="3" rowspan="2">6</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>17</td>
+      <td>18</td>
+      <td>19</td>
+      <td>20</td>
+    </tr>
+  </table>
+</body>
+
 </html>
